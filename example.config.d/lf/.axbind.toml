@@ -1,0 +1,15 @@
+[meta]
+escape = '\'
+proxy = '^'
+[[groups]]
+files = [ 'lfrc' ]
+axbind_filename = '_^.axbind'
+[[groups.captures]]
+capture = '@^@'
+escape = '**'
+layers = [
+    { map = 'binds/current' },
+    { function = 'util/surround', args = [ '(', ')' ] }
+]
+
+

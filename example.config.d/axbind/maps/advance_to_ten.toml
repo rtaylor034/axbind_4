@@ -1,0 +1,11 @@
+[map]
+inclusions = [
+    'advance_to_five'
+]
+[[map.values]]
+five = 'six'
+six = 'seven'
+seven = 'eight'
+eight = 'nine'
+nine = 'ten'
+

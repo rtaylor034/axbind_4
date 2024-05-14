@@ -1,0 +1,14 @@
+[meta]
+proxy = '^'
+[function]
+parameters = [ 'prepend', 'left', 'right' ]
+parameter_format = '[^]'
+[[function.pipeline]]
+binary = 'echo'
+stdin = ''
+args = [
+    '[prepend]^',
+]
+[[function.pipeline]]
+internal = 'util/surround'
+args = [ '[left]', '[right]' ]

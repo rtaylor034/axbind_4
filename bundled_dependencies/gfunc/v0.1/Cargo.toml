@@ -1,0 +1,17 @@
+[package]
+name = "gfunc"
+version = "0.1.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+toml = { version = "0.8", optional = true }
+
+
+[features]
+run = []
+fnav = []
+fnav2 = []
+tomlutil = ["dep:toml"]
+gtypes = []

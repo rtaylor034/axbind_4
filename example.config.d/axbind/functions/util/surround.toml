@@ -1,0 +1,11 @@
+[meta]
+proxy = '^'
+[function]
+parameters = [ 'left', 'right' ]
+parameter_format = '[^]'
+[[function.pipeline]]
+binary = 'echo'
+stdin = ''
+args = [
+    '[left]^[right]',
+]
